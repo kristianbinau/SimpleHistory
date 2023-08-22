@@ -1,7 +1,7 @@
 {
   "module": "./esm/mod.js",
   "main": "./script/mod.js",
-  "name": "SimpleHistory",
+  "name": "@kristianbinau/simple-history",
   "version": "0.0.1",
   "description": "A simple History class that stores the current value and keeps a stack of previous values for undo/redo",
   "license": "MIT",

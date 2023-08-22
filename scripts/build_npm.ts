@@ -10,7 +10,7 @@ await build({
     deno: true,
   },
   package: {
-    name: "SimpleHistory",
+    name: "@kristianbinau/simple-history",
     version: Deno.args[0],
     description:
       "A simple History class that stores the current value and keeps a stack of previous values for undo/redo",

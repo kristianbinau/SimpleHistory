@@ -9,3 +9,4 @@ Typescript.
 - `deno lint src/` - Run linter
 - `deno test src/` - Run tests
 - `deno run -A scripts/build_npm.ts x.x.x` - Build npm package
+- `npm publish --access=public npm/` - Publish npm package
