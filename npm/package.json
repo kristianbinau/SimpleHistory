@@ -1,0 +1,29 @@
+{
+  "module": "./esm/mod.js",
+  "main": "./script/mod.js",
+  "name": "SimpleHistory",
+  "version": "0.0.1",
+  "description": "A simple History class that stores the current value and keeps a stack of previous values for undo/redo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristianbinau/SimpleHistory.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kristianbinau/SimpleHistory/issues"
+  },
+  "exports": {
+    ".": {
+      "import": "./esm/mod.js",
+      "require": "./script/mod.js"
+    }
+  },
+  "scripts": {
+    "test": "node test_runner.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "picocolors": "^1.0.0",
+    "@deno/shim-deno": "~0.16.1"
+  }
+}
