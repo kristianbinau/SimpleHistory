@@ -1,5 +1,7 @@
 # History
-A simple history library for Deno, Node.js and the browser. Build with Deno & Typescript.
+
+A simple history library for Deno, Node.js and the browser. Build with Deno &
+Typescript.
 
 ### Commands
 
